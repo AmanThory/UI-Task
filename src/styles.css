@@ -1,0 +1,118 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: rota-medium;
+    src: url('./assets/Rota_fonts/Rota/Rota-Medium.otf');
+}
+
+@font-face {
+    font-family: rota-bold;
+    src: url('./assets/Rota_fonts/Rota/Rota-Bold.otf');
+}
+
+@font-face {
+    font-family: rota-black;
+    src: url('./assets/Rota_fonts/Rota/Rota-Black.otf');
+}
+
+@font-face {
+    font-family: rota-regular;
+    src: url('./assets/Rota_fonts/Rota/Rota-Regular.otf');
+}
+
+:root {
+    --primary-color: #5448C8;     
+    --white-color: #fff;     
+    /* --light-gray-color: #e1e0e8; */
+    --light-gray-color: #e1e0e896;
+    --green: #6dd0a5;
+
+    --text-dark-gray: #727272;     
+    --text-light-gray: #adacae;     
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: rota-medium;
+    /* font-family: rota-black; */
+    /* font-family: rota-bold; */
+    /* background: #5448C8  #6DD0A5 #2D2D2D #999999; */
+}
+
+.bgGreen {
+    background: var(--green);
+}
+
+.bgBlue {
+    background: var(--primary-color);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-light-gray {
+    color: var(--text-light-gray);
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-dark-gray {
+    color: var(--text-dark-gray);
+}
+
+.ff-rota-black {
+    font-family: rota-black;
+}
+
+.card {
+    border-radius: 10px;
+    /* background: #999999; */
+    background: var(--light-gray-color);
+    padding: 20px;
+    min-height: 168px;
+}
+
+.card-heading {
+    font-family: rota-black;
+    /* letter-spacing: 1px; */
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-self-end {
+    align-self: end;
+}

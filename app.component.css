@@ -1,7 +1,0 @@
-.widget-grid{
-    flex-wrap: wrap;
-}
-
-.widget-grid > * {
-    flex-basis: 250px
-}

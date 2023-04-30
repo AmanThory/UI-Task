@@ -1,0 +1,37 @@
+
+<div class="text-center">
+  <img src="../assets/logo.svg" width="200px" height="200px" alt="" srcset="">
+</div>
+
+
+<div class="d-flex justify-content-center widget-grid" style="gap: 20px">
+  
+  <app-widget-circle 
+    heading="Air Quality" 
+    mainDegreeValue="72" 
+    mainDegreeBgColor="green" 
+    upDegreeValue="93"
+    upDegreeIcon="arrow-up.svg" 
+    downDegreeValue="61"
+    downDegreeIcon="arrow-down.svg"
+    [isCelsiusExist]="false" 
+    >
+  </app-widget-circle>
+
+  <app-widget-circle 
+    heading="Temperature" 
+    mainDegreeValue="21" 
+    upDegreeValue="26"
+    upDegreeIcon="fire.svg" 
+    downDegreeValue="18"
+    downDegreeIcon="snowflake.svg"
+    >
+  </app-widget-circle>
+  
+  <app-widget-badge heading="Audio" opacity="0.8" badge="PLAYING" label="2" totalValue="5"></app-widget-badge>
+
+  <app-widget-displays heading="Displays" label="10" totalValue="00:00"></app-widget-displays>
+  
+  <app-widget-badge heading="Lighting" badge="on" label="32" totalValue="43"></app-widget-badge>
+
+</div>
